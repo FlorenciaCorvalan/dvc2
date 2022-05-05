@@ -54,7 +54,7 @@ stages:
         train.seed: 20170428
     outs:
     - path: model.pkl
-      md5: f8331a85d4dc4c5241ca4abdea58979a
+      md5: 492318a55524702eb2614db601d3e06c
       size: 2664062
   evaluate:
     cmd: python src/evaluate.py model.pkl data/features scores.json prc.json roc.json
@@ -64,7 +64,7 @@ stages:
       size: 7083960
       nfiles: 2
     - path: model.pkl
-      md5: f8331a85d4dc4c5241ca4abdea58979a
+      md5: 492318a55524702eb2614db601d3e06c
       size: 2664062
     - path: src/evaluate.py
       md5: fb7b5209c9237ea6cf63550e5fe9b817
